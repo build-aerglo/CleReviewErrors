@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <PackageId>Aerglo.Errors</PackageId>
         <Version>1.0.0</Version>
-        <Authors>CleReview</Authors>
+        <Authors>AergloTechologies</Authors>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
