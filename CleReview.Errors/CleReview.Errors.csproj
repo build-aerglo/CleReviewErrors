@@ -1,13 +1,37 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <PackageId>Aerglo.Errors</PackageId>
-        <Version>1.0.0</Version>
-        <Authors>AergloTechologies</Authors>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet Metadata -->
+    <PackageId>Aerglo.Errors</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>AergloTechnologies</Authors>
+    <Company>Aerglo Technologies</Company>
+
+    <Description>Shared error codes and domain error definitions used across the Aerglo microservices ecosystem.</Description>
+
+    <!-- GitHub repo for source link + metadata -->
+    <RepositoryUrl>https://github.com/build-aerglo/CleReviewErrors.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/build-aerglo/CleReviewErrors.git</PackageProjectUrl>
+
+    <!-- License (recommended for NuGet packages) -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <!-- Package metadata -->
+    <PackageTags>aerglo;errors;domain;microservices;shared-library</PackageTags>
+    <RepositoryType>git</RepositoryType>
+
+    <!-- Create NuGet package automatically -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <!-- Include debugging symbols -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+  </PropertyGroup>
 
 </Project>
