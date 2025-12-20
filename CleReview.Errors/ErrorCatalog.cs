@@ -15,5 +15,5 @@ public static class ErrorCatalog
     };
 
     public static string GetMessage(ErrorCode code)
-        => Messages.GetValueOrDefault(code, "Unknown error.");
+        => Messages.GetValueOrDefault(code, $"Unknown error. Error code {(int)code} ({code}) is not defined in the error catalog.");
 }
